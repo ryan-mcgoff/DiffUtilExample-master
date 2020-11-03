@@ -40,7 +40,7 @@ public class EmployeeRecyclerViewAdapter extends
 
         this.mEmployees.clear();
         this.mEmployees.addAll(employees);
-        diffResult.dispatchUpdatesTo(this);
+        diffResult.dispatchUpdatesTo(dthis);
     }
 
     @Override
